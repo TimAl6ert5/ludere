@@ -83,3 +83,11 @@ Short for "Read Evaluate Print Loop" is a simple interactive program to interact
 ## Testing
 
 Software testing is the discipline of evaluating and/or executing software artifacts with the goal of finding faults.  In this project, the PyTest framework is used to write unit tests.
+
+
+# Code Quality
+
+Code style: `black .`
+Import sorting: `isort .`
+Linting: `ruff .`
+Static Type Checking: `mypy .`

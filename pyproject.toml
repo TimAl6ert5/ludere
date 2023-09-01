@@ -1,0 +1,18 @@
+[tool.ruff]
+# ignore line-length, Black should fix violations
+ignore = ["E501"]
+src = ["roles/pyats/files"]
+fix = true
+
+[tool.pyright]
+include = ["roles/pyats/files"]
+typeCheckingMode = "strict"
+
+[tool.mypy]
+ignore_missing_imports = true
+allow_subclassing_any = true
+allow_untyped_decorators = true
+strict = true
+
+[tool.isort]
+profile = "black"
